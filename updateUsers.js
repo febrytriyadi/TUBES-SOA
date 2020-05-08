@@ -13,7 +13,7 @@ exports.handler = async (event, context) => {
     const { iduser, alamat, nama, nohp, noktp, email, lokasi_sekarang } = JSON.parse(event.body);
     
     const params = {
-        TableName : "Pengiriman",
+        TableName : "User",
         Key: {
             iduser: iduser
         },
