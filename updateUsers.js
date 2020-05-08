@@ -49,7 +49,7 @@ exports.handler = async (event, context) => {
         responseBody = JSON.stringify(data);
         statusCode = 204;
     } catch (err) {
-        responseBody = 'Unable to update Pengiriman data';
+        responseBody = 'Unable to update User data';
         statusCode = 403;
     }
      
